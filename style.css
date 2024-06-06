@@ -106,3 +106,25 @@ li a:hover{
 .attribution a{
     color: hsl(75, 94%, 57%);
 }
+
+@media(max-width:375px){
+    body{
+        align-items: center;
+    }
+    main{
+        width: 320px;
+        padding: 28px
+    }
+    .nameAndLocale h1{
+        font-size: 1.44rem;
+    }
+    .nameAndLocale h3{
+        font-size: 0.85rem;
+    }
+    .description p{
+        font-size: 0.82rem;
+    }
+    .attribution{
+        font-size: 0.8rem;
+    }
+}
