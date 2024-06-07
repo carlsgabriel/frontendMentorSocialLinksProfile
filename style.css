@@ -5,11 +5,13 @@
 }
 
 body{
+    height: 100vh;
     font-family: 'Inter';
     position: relative;
     background-color: hsl(0, 0%, 8%);
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 main{
